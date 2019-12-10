@@ -1,3 +1,6 @@
+body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;}
+
+
 
 
 header {
@@ -30,8 +33,24 @@ header {
     color: blue;
 }
 
-.contatiner {
-    margin: 0 0 100px 0;
+.container {
+    margin: 0 auto 100px;
+}
+.card {
+    background: linear-gradient(110deg, white 60%, #ffed4b 60%);
+
+}
+.dogbutton {
+    margin: 0 0 0 450px;
+}
+
+form {
+    background: linear-gradient(70deg, #ffed4b 40%, white 90%);
+}
+
+.contactinfo {
+    background: linear-gradient(110deg, red 50%, blue 90%);
+
 }
 footer {
     height: 50px;
@@ -59,3 +78,4 @@ footer {
     border-color: orange;
     border-width: 5px;
 }
+
