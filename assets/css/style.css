@@ -1,5 +1,5 @@
 body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;
-    padding: 0;
+
 }
 
 
@@ -43,10 +43,11 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 0 5px 5px 5px;
+
 }
 .card {
     background: linear-gradient(110deg, white 60%, #ffed4b 60%);
-
+ /* why isnt it filling out the container??*/
 }
 .dogbutton {
     margin: 0 0 0 450px;
@@ -80,6 +81,9 @@ footer {
     color: white;
     text-align: center;
     min-width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
 
 }
 
@@ -90,7 +94,7 @@ footer {
 }
 
 .row {
-
+ 
 }
 
 .cole {
@@ -98,3 +102,23 @@ footer {
     padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+.container {
+    width: 360px;
+}
+.infoline{
+    font-size:16px;
+    padding: 0;
+    color: white;
+}
+#socialrow {
+    display:flex;
+    justify-content: space-evenly;
+    padding:0;
+}
+
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+}
+}
