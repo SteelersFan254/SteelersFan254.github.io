@@ -1,4 +1,6 @@
-body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;}
+body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;
+    padding: 0;
+}
 
 
 
@@ -6,6 +8,9 @@ body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pitts
 header {
     background-color: rgb(250, 227, 17);
     width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
 
 }
 
@@ -35,6 +40,9 @@ header {
 
 .container {
     margin: 0 auto 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 5px 5px 5px;
 }
 .card {
     background: linear-gradient(110deg, white 60%, #ffed4b 60%);
@@ -45,13 +53,27 @@ header {
 }
 
 form {
-    background: linear-gradient(70deg, #ffed4b 40%, white 90%);
+    background: linear-gradient(70deg, #ffed4b 50%, white 90%);
+    padding: 10px;
 }
 
 .contactinfo {
     background: linear-gradient(110deg, red 50%, blue 90%);
 
 }
+
+.infoline{
+    font-size: 27px;
+    padding: 60px 0 60px 10px;
+}
+
+#socialrow {
+    display:flex;
+    justify-content: space-evenly;
+    height: 249px;
+    padding: 50px 0 0 0;
+}
+
 footer {
     height: 50px;
     background-color:blue;
@@ -68,14 +90,11 @@ footer {
 }
 
 .row {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
+
 }
 
 .cole {
-    border-style: solid;
-    border-color: orange;
-    border-width: 5px;
+
+    padding: 0;
 }
 
