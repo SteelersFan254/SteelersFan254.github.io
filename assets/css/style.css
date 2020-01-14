@@ -39,22 +39,16 @@ a:link {
     width: 25%;
 }
 
-.nav {
-    padding: 10px 0 0 0;
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: space-between;
+  }
 
-}
-#white{
-    color: white;
-}
-
-#red {
-    color: red;
-}
-
-#blue {
-    color: blue;
-}
-
+  .portfolioLink {
+      background-color: red;
+      color: yellow;
+  }
 .container {
     margin: 0 auto 100px;
     border-style: solid;
