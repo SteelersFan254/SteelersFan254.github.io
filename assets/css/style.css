@@ -94,7 +94,7 @@ footer {
 }
 
 .row {
- 
+ padding: 0;
 }
 
 .cole {
@@ -120,5 +120,21 @@ footer {
 .rounded-circle {
     height: 50px;
     width: 50px;
+}
+
+header {
+    font-size:10px;
+}
+
+form {
+    width:180px;
+}
+
+.contactinfo {
+    width: 180px;
+}
+
+.infoline {
+    font-size: 10px
 }
 }
