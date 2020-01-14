@@ -6,38 +6,49 @@ body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pitts
 
 
 header {
-    background-color: rgb(250, 227, 17);
+    background-color: rgb(12, 8, 233);
     width: 100%;
     border-style: solid;
     border-color: black;
-    border-width: 5px;
-
-}
-
-#namebox {
-    background-color: black;
-    color: rgb(255, 232, 27);
-    height: 65px;
-    text-align: center;
-    font-size:30px;
-}
-
-.nav {
-    padding: 10px 0 0 0;
-
-}
-#white{
+    border-width: 0 0 5px 0;
+    height: 50px;
     color: white;
 }
 
-#red {
-    color: red;
+.pageBox {
+    height: 100%;
+    width: 25%;
+    display:flex;
+    justify-content:space-between;
+    font-size: 24px;
+    color: white;
+    float:right
 }
 
-#blue {
-    color: blue;
+a:link {
+    color:white;
 }
 
+.nameBox {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100%;
+    text-align: center;
+    font-size:24px;
+    float:left;
+    width: 25%;
+}
+
+.grid-container {
+    display: grid;
+    height: 400px;
+    align-content: space-between;
+  }
+
+  .portfolioLink {
+      background-color: red;
+      color: yellow;
+  }
 .container {
     margin: 0 auto 100px;
     border-style: solid;
