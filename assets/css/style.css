@@ -1,8 +1,17 @@
+html {
+    height: 100%;
+    width: 100%;
+}
 body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;
-
+    height: 100%;
+    width: 100;
 }
 
-
+.wrapper {
+    min-height: 100%;
+    background-color: grey;
+    position: relative;
+}
 
 
 header {
@@ -22,11 +31,16 @@ header {
     justify-content:space-between;
     font-size: 24px;
     color: white;
-    float:right
+    float:right;
+    margin: 0 5% 0 0;
 }
 
 a:link {
     color:white;
+}
+
+a:visited {
+    color: white;
 }
 
 .nameBox {
@@ -41,21 +55,33 @@ a:link {
 
 .grid-container {
     display: grid;
-    height: 400px;
+    width: 80%;
     align-content: space-between;
-  }
-
-  .portfolioLink {
-      background-color: red;
-      color: yellow;
-  }
-.container {
-    margin: 0 auto 100px;
+    margin-top: 50px;
+    margin: 50px auto 0px;
     border-style: solid;
     border-color: black;
-    border-width: 0 5px 5px 5px;
+    border-width: 1px;
+    grid-template-columns: auto auto auto;
+    background-color: tan;
+    padding: 2%;
+    height: auto;
+    margin: 50px auto 50px;
+  }
 
+.portLink {
+      background-color: red;
+      border: 0;
+      padding-top: 90%;
+      margin: 2%;
+      text-align: center;
 }
+
+.text {
+    font-size: 100%;
+    height: 10%;
+}
+
 .card {
     background: linear-gradient(110deg, white 60%, #ffed4b 60%);
  /* why isnt it filling out the container??*/
@@ -95,6 +121,10 @@ footer {
     border-style: solid;
     border-color: white;
     border-width: 1px 0 0 0;
+    position: absolute;
+    bottom: -50px;
+    margin: 50px 0 0 0;
+
 
 }
 
@@ -113,39 +143,35 @@ footer {
     padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-.container {
-    width: 360px;
-}
-.infoline{
-    font-size:16px;
-    padding: 0;
-    color: white;
-}
-#socialrow {
-    display:flex;
-    justify-content: space-evenly;
-    padding:0;
-}
-
-.rounded-circle {
-    height: 50px;
-    width: 50px;
-}
-
+@media screen and (max-width: 1008px) {
 header {
-    font-size:10px;
+    height: 30px;
+}
+.nameBox {
+    font-size:16px;
 }
 
-form {
-    width:180px;
+.pageBox {
+    font-size:16px;
+    margin: 0 5% 0 0;
 }
 
-.contactinfo {
-    width: 180px;
 }
 
-.infoline {
-    font-size: 10px
+@media screen and (max-width: 640px) {
+.pageBox{
+
+    font-size: 10px;
+
+}
+
+.grid-container {
+    margin: 10% auto 10%;
+}
+
+footer {
+    height: 5%;
+    bottom: 0;
+    margin: 0;
 }
 }
