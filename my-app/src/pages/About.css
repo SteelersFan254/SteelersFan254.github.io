@@ -1,0 +1,31 @@
+.card {
+    width: 80%;
+    margin: 10px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: darkblue;
+    color: white;
+    text-shadow: black 1px 1px 1px;
+    padding: 0 0 50px 0;
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.card-body {
+    margin: 10px;
+}
+.card-title {
+    font-size: 64px;
+    line-height: 64px;
+    margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+#pic {
+    margin: 10px;
+    width: 40%;
+    height: 20%;
+}
+.aboutMe {
+    font-size: 48px;
+    line-height: 52px;
+    font-stretch: wider;
+}
