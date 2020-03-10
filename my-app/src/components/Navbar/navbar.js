@@ -6,6 +6,8 @@ import "./navbar.css";
 function Navbar() {
     return (
         <div>
+
+
             <div className="header">
                 <div className="nameBox">Ryan Borja</div>
                 <div className="pageBox">
@@ -37,6 +39,10 @@ function Navbar() {
                     </Link>
                 </div>
             </div>
+
+
+
+
         </div>
 
 
