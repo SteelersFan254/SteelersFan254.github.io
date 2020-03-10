@@ -1,7 +1,3 @@
-body {background-image: url(https://www.dazzlejunction.com/backgrounds/NFL/pittsburgh-steelers.gif); background-repeat:repeat; background-attachment: fixed;
-
-}
-
 .header {
 color: white;
 background-color: rgb(12, 8, 233);
@@ -10,17 +6,6 @@ height: 50px;
 box-shadow: 0px 1px 5px 1px black;
 } 
 
-.pageBox {
-    height: 100%;
-    width: 25%;
-    display:flex;
-    justify-content:space-between;
-    font-size: 24px;
-    color: white;
-    float:right;
-    background-color:black;
-    padding: 0 2%;
-}
 
 
 a:link {
@@ -36,7 +21,21 @@ a:visited {
     color: white;
     height: 100%;
     text-align: center;
-    font-size:24px;
+    font-size: 36px;
     float:left;
+    padding: 0 2%;
+    margin: 0 0 0 5%;
+}
+
+.pageBox {
+    height: 100%;
     width: 25%;
+    display:flex;
+    justify-content:space-between;
+    font-size: 36px;
+    color: white;
+    float:right;
+    background-color:black;
+    padding: 0 2%;
+    margin: 0 5% 0 0;
 }

@@ -9,7 +9,7 @@ function Navbar() {
 
 
             <div className="header">
-                <div className="nameBox">Ryan Borja</div>
+                <div className="nameBox">Ryan C Borja</div>
                 <div className="pageBox">
                     <Link
                         to="/"

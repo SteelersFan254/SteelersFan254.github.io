@@ -1,33 +1,26 @@
 .card {
     width: 80%;
-    margin: 10px auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 2% auto;
+    font-family: 'Roboto Condensed', sans-serif;
     background-color: darkblue;
     color: white;
     text-shadow: black 1px 1px 1px;
     padding: 0 0 50px 0;
     box-shadow: 0px 0px 5px 5px black;
-    border-radius: 10px;
+    font-size: 36px;
+    line-height: 36px;
 
 }
 
-.card-body {
+.cardBody {
     margin: 10px;
+    
 }
-.card-title {
-    font-size: 64px;
-    line-height: 64px;
-    margin: 20px 0 0 0;
-    padding: 20px 0 0 0;
+.cardTitle {
+    margin: 20px;
+    padding: 1px 0 0 0;
 }
-
-#pic {
-    margin: 10px;
-    width: 40%;
-    height: 20%;
-}
-.aboutMe {
-    font-size: 48px;
-    line-height: 52px;
-    font-stretch: wider;
+#selfie {
+    float: right;
+    margin: 20px 10px;
 }
