@@ -6,7 +6,7 @@ function About() {
     return (
         <div>
             <div className="card">
-                <img src={require("./self.jpeg")} alt="me" id="pic" style={{ float: "right" }} />
+                <img src={require("../assets/self.jpeg")} alt="me" id="pic" style={{ float: "right" }} />
                     <div className="card-body">
                         <h5 className="card-title">About Me</h5>
                         <p className="aboutMe">Hello. I'm an aspiring full stack web developer. I'm currently looking for a job in the Austin area. Once I find a job, my plan is to go back
