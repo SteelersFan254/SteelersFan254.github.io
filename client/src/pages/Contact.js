@@ -7,7 +7,7 @@ function Contact() {
     <div>
       <div className="contactContainer">
         <div className="businessDiv">
-          <p>Phone Number: (254) 449-6805</p>
+          <p>Phone Number: (254) 449-6805 </p>
           <p>Email: <a href="mailto:rcborja.business@gmail.com" style={{ textDecoration: 'none', color: "white" }}>rcborja.business@gmail.com</a></p>
           <p>GitHub: <a href="https://github.com/SteelersFan254" style={{ textDecoration: 'none', color: "white" }} target="_blank">SteelersFan254</a></p>
         </div>
