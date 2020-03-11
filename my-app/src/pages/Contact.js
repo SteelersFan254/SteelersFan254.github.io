@@ -13,10 +13,10 @@ function Contact() {
         </div>
         <div style={{ height: "300px", width: "2px", backgroundColor: "white", margin: "auto 0" }} />
         <div className="socialMediaDiv">
-          <a href="" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-instagram"></a>
+          <a href="https://www.facebook.com/ryancruzborja" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/GeorgiaWithaB" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/ryan-borja-16b122195/" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/ryan.c.borja/?hl=en" class="fa fa-instagram"></a>
 
 
         </div>
