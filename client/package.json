@@ -1,7 +1,9 @@
 {
-  "name": "ryanborja",
+  "name": "ryancborja",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
+
   "engines": {
     "npm": "6.9.0",
     "node": "10.16.3"
